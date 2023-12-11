@@ -1,3 +1,5 @@
 # read entire file to array of lines
-Slurp ← |1 ⍜(&fo)(⇌;; ⍢(⊙(⊂□):)(≠0⧻. &ru @\n .) ⊙[])
-SlurpUnboxed ← |1 ⍜(&fo)(⇌≡⊔;; ⍢(⊙(⊂□):)(≠0⧻. &ru @\n .) ⊙[])
+Slurp ← ⍜(&fo)(⇌;; ⍢(⊙(⊂□):)(≠0⧻. &ru @\n .) ⊙[])
+
+# print part I and II results
+Print ← ∩(&p $"Part _: _") 1⊙2
